@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="bg-symbols" aria-hidden="true">
+  <span>$</span>
+  <span>€</span>
+  <span>£</span>
+  <span>₨</span>
+  <span>¥</span>
+  <span>₿</span>
+</div>
+    <div class="container">
+        <h2>Currency Convertor</h2>
+         <form>
+            <div class="amount">
+                <p>Amount</p>
+                <input value="1" type="text" />
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="selectContainer">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <Select name="from">
+                            
+                        </Select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="selectContainer">
+                        <img src="https://flagsapi.com/PK/flat/64.png">
+                        <Select name="to">
+                            
+                        </Select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                1USD = 277PKR
+            </div>
+            <button>Get Exchange Rate</button>
+
+         </form>
+    </div>
+    <p class="footer-note">Made with ❤ by Hina</p>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
